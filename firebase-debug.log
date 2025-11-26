@@ -1,0 +1,88 @@
+[debug] [2025-11-26T07:22:04.546Z] ----------------------------------------------------------------------
+[debug] [2025-11-26T07:22:04.549Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ALFA\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-11-26T07:22:04.550Z] CLI Version:   14.26.0
+[debug] [2025-11-26T07:22:04.550Z] Platform:      win32
+[debug] [2025-11-26T07:22:04.550Z] Node Version:  v22.16.0
+[debug] [2025-11-26T07:22:04.551Z] Time:          Wed Nov 26 2025 10:22:04 GMT+0300 (Arabian Standard Time)
+[debug] [2025-11-26T07:22:04.551Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\store app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2025-11-26T07:22:23.633Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-26T07:22:23.633Z] > authorizing via signed-in user (lym53694@gmail.com)
+[debug] [2025-11-26T07:22:23.635Z] Checked if tokens are valid: true, expires at: 1764143149199
+[debug] [2025-11-26T07:22:23.635Z] Checked if tokens are valid: true, expires at: 1764143149199
+[debug] [2025-11-26T07:22:23.637Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/alls-mohammed [none]
+[debug] [2025-11-26T07:22:24.300Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/alls-mohammed 200
+[debug] [2025-11-26T07:22:24.300Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/alls-mohammed {"projectId":"alls-mohammed","projectNumber":"767131051692","displayName":"alls-mohammed","name":"projects/alls-mohammed","resources":{"hostingSite":"alls-mohammed"},"state":"ACTIVE","etag":"1_f6906cd3-0c3a-4c8b-9c1e-19edeeea906c"}
+[info] i  Using project alls-mohammed (alls-mohammed) . 
+[info] 
+=== Functions Setup
+[debug] [2025-11-26T07:22:24.319Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-26T07:22:24.319Z] > authorizing via signed-in user (lym53694@gmail.com)
+[debug] [2025-11-26T07:22:24.320Z] [iam] checking project alls-mohammed for permissions ["firebase.projects.get"]
+[debug] [2025-11-26T07:22:24.320Z] Checked if tokens are valid: true, expires at: 1764143149199
+[debug] [2025-11-26T07:22:24.320Z] Checked if tokens are valid: true, expires at: 1764143149199
+[debug] [2025-11-26T07:22:24.321Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/alls-mohammed:testIamPermissions [none]
+[debug] [2025-11-26T07:22:24.321Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/alls-mohammed:testIamPermissions x-goog-quota-user=projects/alls-mohammed
+[debug] [2025-11-26T07:22:24.321Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/alls-mohammed:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-11-26T07:22:25.506Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/alls-mohammed:testIamPermissions 200
+[debug] [2025-11-26T07:22:25.506Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/alls-mohammed:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] i  functions/package.json is unchanged 
+[info] i  functions/.eslintrc.js is unchanged 
+[info] i  functions/index.js is unchanged 
+[info] i  functions/.gitignore is unchanged 
+[info] 
+=== Hosting Setup
+[debug] [2025-11-26T07:22:35.548Z] Checked if tokens are valid: true, expires at: 1764143149199
+[debug] [2025-11-26T07:22:35.548Z] Checked if tokens are valid: true, expires at: 1764143149199
+[debug] [2025-11-26T07:22:35.548Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/alls-mohammed [none]
+[debug] [2025-11-26T07:22:35.971Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/alls-mohammed 200
+[debug] [2025-11-26T07:22:35.971Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/alls-mohammed {"projectId":"alls-mohammed","projectNumber":"767131051692","displayName":"alls-mohammed","name":"projects/alls-mohammed","resources":{"hostingSite":"alls-mohammed"},"state":"ACTIVE","etag":"1_f6906cd3-0c3a-4c8b-9c1e-19edeeea906c"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming D:\store app is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=240786242&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-11-26T07:22:47.293Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2025-11-26T07:22:47.294Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2025-11-26T07:22:47.867Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2025-11-26T07:22:47.868Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2025-11-26T07:22:47.890Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2025-11-26T07:22:48.392Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2025-11-26T07:22:48.392Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"aokmoh","id":209006575,"node_id":"U_kgDODHUv7w","avatar_url":"https://avatars.githubusercontent.com/u/209006575?v=4","gravatar_id":"","url":"https://api.github.com/users/aokmoh","html_url":"https://github.com/aokmoh","followers_url":"https://api.github.com/users/aokmoh/followers","following_url":"https://api.github.com/users/aokmoh/following{/other_user}","gists_url":"https://api.github.com/users/aokmoh/gists{/gist_id}","starred_url":"https://api.github.com/users/aokmoh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aokmoh/subscriptions","organizations_url":"https://api.github.com/users/aokmoh/orgs","repos_url":"https://api.github.com/users/aokmoh/repos","events_url":"https://api.github.com/users/aokmoh/events{/privacy}","received_events_url":"https://api.github.com/users/aokmoh/received_events","type":"User","user_view_type":"private","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":"lym53694@gmail.com","hireable":null,"bio":null,"twitter_username":null,"notification_email":"lym53694@gmail.com","public_repos":0,"public_gists":0,"followers":0,"following":0,"created_at":"2025-04-24T17:00:26Z","updated_at":"2025-11-26T06:54:20Z","private_gists":0,"total_private_repos":9,"owned_private_repos":9,"disk_usage":1572,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as aokmoh 
+[info] 
